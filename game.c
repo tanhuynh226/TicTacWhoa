@@ -371,7 +371,7 @@ void CreateSaveReplay(int win_flag, char player1_char, char player2_char, char p
             fprintf(text, "Player 1 (Human): '%c', 'Green'\n", player1_char);
         else if (player1_color == 'y')
             fprintf(text, "Player 1 (Human): '%c', 'Yellow'\n", player1_char);
-        else if (player1_color == 'B')
+        else if (player1_color == 'b')
             fprintf(text, "Player 1 (Human): '%c', 'Blue'\n", player1_char);
         else
             fprintf(text, "Player 1 (Human): '%c', 'Default'\n", player1_char);
